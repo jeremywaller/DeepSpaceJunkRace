@@ -1,0 +1,30 @@
+##### Introduction #####
+Player: Whoa...what happened?
+Player: What's...uh? What's my name?
+Player: Oh. *PlayerName*. I think that's right?
+
+##### First Manager Dialog #####
+John: *PlayerName*! 
+John: What were you thinking back there?!
+John: Your carelessness nearly got your ship destroyed!
+John: That's company property! 
+John: I'm taking the damages out of your check!!
+
+##### Second Manager Dialog #####
+John: Good grief!
+John: For the pittance you make, it's gonna take you......
+John: 86 years to pay for this!
+John: Now, you listen to me! 
+John: You're not leaving that ship until it's fixed!
+John: Get your butt out there and start collecting some of that junk floating around!
+John: ...
+John: ...
+John: Why are you still staring at the vid screen like an idiot?
+John: Get to work!
+
+##### First Boss Encounter #####
+Boss 1: Well...lookie what we have here.
+Boss 1: A little lamb lost on the edge of the sector.
+Boss 1: You know what we do with little lambs like you?
+Boss 1: We SLAUGHTER them and sell the remains for scrap!
+Boss 1: Prepare yourself!
