@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace UnityEngine.UI
 {
 	[AddComponentMenu("UI/Effects/Gradient")]
-#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9
+#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9 || UNITY_2018
     public class Gradient : BaseMeshEffect
 #else
     public class Gradient : BaseVertexEffect
@@ -14,7 +14,7 @@ namespace UnityEngine.UI
         [SerializeField] private Color topColor = Color.white;
 		[SerializeField] private Color bottomColor = Color.black;
 
-#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9
+#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9 || UNITY_2018
         public override void ModifyMesh(VertexHelper vertexHelper)
         {
             if (!this.IsActive())
@@ -30,7 +30,7 @@ namespace UnityEngine.UI
         }
 #endif
 
-#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9
+#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9 || UNITY_2018
         public void ModifyVertices(List<UIVertex> vertexList)
 #else
         public override void ModifyVertices(List<UIVertex> vertexList)

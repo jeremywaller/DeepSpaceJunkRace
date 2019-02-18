@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace UnityEngine.UI
 {
 	[RequireComponent(typeof(RectTransform)), RequireComponent(typeof(Graphic)), DisallowMultipleComponent, AddComponentMenu("UI/Flippable")]
-#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9
+#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9 || UNITY_2018
     public class UIFlippable : MonoBehaviour, IMeshModifier {
 #else
     public class UIFlippable : MonoBehaviour, IVertexModifier {
@@ -32,7 +32,7 @@ namespace UnityEngine.UI
 			get { return this.m_Veritical; }
 			set { this.m_Veritical = value; }
 		}
-		
+
 #if UNITY_EDITOR
 		protected void OnValidate()
 		{
@@ -40,7 +40,7 @@ namespace UnityEngine.UI
 		}
 #endif
 
-#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9
+#if UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_5_6 || UNITY_5_7 || UNITY_5_8 || UNITY_5_9 || UNITY_2018
         public void ModifyMesh(VertexHelper vertexHelper)
 		{
 			if (!this.enabled)
